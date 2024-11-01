@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/rigester' component={Register} />
-        <Route path='/login' component={Login} />
+        <Route path='/rigester' element={<Register/>} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
     </Router>
   );
